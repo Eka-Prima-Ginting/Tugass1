@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int input;
+	
+	cout << "Masukkan Bilangan :" ;
+	
+	cin >>input;
+	
+	if (input < 0){
+		cout << "Bilangan tersebut adalah negatif" << endl;
+	} else if (input == 0 ) {
+		cout << "Bilangan tersebut adalah netral" << endl;
+	} else {
+		cout << "Bilangan tersebut adalah positif" << endl;
+	}
+	
+	return 0;
+}
