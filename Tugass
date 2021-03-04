@@ -13,7 +13,9 @@ int main(){
 		cout << "Bilangan tersebut adalah netral" << endl;
 	} else {
 		cout << "Bilangan tersebut adalah positif" << endl;
-	}
+	} endl;
+	
+	cout << "Terima Kasih telah Menggunakan Program Tersebut" << endl;
 	
 	return 0;
 }
